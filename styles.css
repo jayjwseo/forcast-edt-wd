@@ -1,0 +1,303 @@
+/* * {
+  font-family: "Work Sans", sans-serif !important;
+} */
+
+@media (min-width: 768px), print {
+  .theme-pearl.store-view-default .page-main {
+    padding: 0 !important;
+  }
+}
+
+.page-main {
+  padding: 0 !important;
+}
+
+#wd-edt {
+  width: 100%;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Work Sans", Helvetica, sans-serif !important;
+  color: #707070;
+  text-transform: initial !important;
+}
+
+#wd-edt .wrapper-sub-edt {
+  display: flex;
+  margin-bottom: 1.5rem;
+  align-items: flex-end;
+  padding: 0 1.5rem;
+}
+
+#wd-edt .sub-edt {
+  display: flex !important;
+  padding: 0 0.75rem;
+}
+
+#wd-edt img.sub {
+  object-fit: contain;
+}
+
+#wd-edt .grid-wrapper-top-edt {
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(14, auto);
+  grid-template-areas:
+    "q1 q1 i1 i1"
+    "q1 q1 i1 i1"
+    "i2 i2 q2 q2"
+    "i2 i2 q2 q2"
+    "t1 t1 t1 t1"
+    "q3 q3 i3 i3"
+    "q3 q3 i3 i3"
+    "t2 t2 t2 t2"
+    "i4 i4 q4 q4"
+    "i4 i4 q4 q4"
+    "t3 t3 t3 t3"
+    "q5 q5 i5 i5"
+    "q5 q5 i5 i5"
+    "t4 t4 t4 t4";
+}
+
+#wd-edt .feature-main-edt {
+  display: inline-block !important;
+}
+
+#wd-edt .cta-edt {
+  text-align: center;
+  padding: 8rem 0 4rem 0;
+}
+
+#wd-edt .cta-edt-btn {
+  font-size: 2.5rem !important;
+  font-weight: 300 !important;
+  text-decoration: none !important;
+  color: white !important;
+  background-color: black !important;
+  padding: 0.4rem 1.3rem !important;
+  border-radius: 4px !important;
+  display: inline !important;
+}
+
+#wd-edt .cta-edt-btn:hover {
+  text-shadow: 0.5px 0 0 white !important;
+}
+
+#wd-edt .caption-main-edt {
+  font-size: 1.5rem !important;
+  font-weight: normal;
+  text-align: center !important;
+  letter-spacing: 0.6px !important;
+  line-height: 2.3rem !important;
+  padding: 2.5rem 10% 0 10% !important;
+}
+
+#wd-edt .hashtag {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center !important;
+}
+
+#wd-edt .sub-heading {
+  font-size: 1.7rem;
+  font-weight: 500;
+  text-align: center !important;
+}
+
+#wd-edt .content-edt {
+  display: flex !important;
+}
+
+#wd-edt .text-edt {
+  padding: 0 3rem !important;
+  font-size: 1.5rem !important;
+  text-align: center !important;
+  align-items: center !important;
+  letter-spacing: 0.6px !important;
+  line-height: 2.3rem !important;
+  font-weight: normal;
+}
+
+#wd-edt .name-edt {
+  font-size: 1.2rem !important;
+}
+
+#wd-edt .extra-padding {
+  padding: 2rem 0 4rem 0;
+}
+
+#wd-edt .text-edt-em {
+  padding: 0 3rem !important;
+  font-size: 1.5rem !important;
+  text-align: center !important;
+  align-items: center !important;
+  letter-spacing: 0.6px !important;
+  line-height: 2.3rem !important;
+  font-weight: normal;
+  padding: 0 10% !important;
+}
+
+#wd-edt .quote-edt {
+  background-image: url("img/quote.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding: 0 3rem !important;
+  font-size: 1.5rem !important;
+  align-items: center !important;
+  letter-spacing: 0.6px !important;
+  line-height: 2.3rem !important;
+  font-weight: normal;
+}
+
+#wd-edt .quote-edt::before {
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  padding-bottom: calc(1 / 1.553 * 100%);
+}
+
+#wd-edt img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 100% !important;
+}
+
+#wd-edt p {
+  margin-top: 1em !important;
+  margin-bottom: 1em !important;
+}
+
+#wd-edt span {
+  margin-top: 2rem;
+  display: block;
+}
+
+#wd-edt a {
+  width: 100% !important;
+  max-width: 100% !important;
+  align-self: stretch !important;
+  display: inherit;
+}
+
+#wd-edt .mobile-show-edt {
+  display: none !important;
+}
+
+#wd-edt .mobile-hide-edt {
+  display: flex !important;
+}
+
+#wd-edt .q1-wd {
+  grid-area: q1;
+}
+#wd-edt .i1-wd {
+  grid-area: i1;
+}
+#wd-edt .q2-wd {
+  grid-area: q2;
+}
+#wd-edt .i2-wd {
+  grid-area: i2;
+}
+#wd-edt .q3-wd {
+  grid-area: q3;
+}
+#wd-edt .i3-wd {
+  grid-area: i3;
+}
+#wd-edt .q4-wd {
+  grid-area: q4;
+}
+#wd-edt .i4-wd {
+  grid-area: i4;
+}
+#wd-edt .q5-wd {
+  grid-area: q5;
+}
+#wd-edt .i5-wd {
+  grid-area: i5;
+}
+#wd-edt .t1-wd {
+  grid-area: t1;
+}
+#wd-edt .t2-wd {
+  grid-area: t2;
+}
+#wd-edt .t3-wd {
+  grid-area: t3;
+}
+#wd-edt .t4-wd {
+  grid-area: t4;
+}
+
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation: portrait),
+  (max-width: 768px) {
+  #wd-edt .grid-wrapper-top-edt {
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(28, auto);
+    grid-template-areas:
+      "i1 i1"
+      "i1 i1"
+      "q1 q1"
+      "q1 q1"
+      "i2 i2"
+      "i2 i2"
+      "q2 q2"
+      "q2 q2"
+      "t1 t1"
+      "t1 t1"
+      "i3 i3"
+      "i3 i3"
+      "q3 q3"
+      "q3 q3"
+      "t2 t2"
+      "t2 t2"
+      "i4 i4"
+      "i4 i4"
+      "q4 q4"
+      "q4 q4"
+      "t3 t3"
+      "t3 t3"
+      "i5 i5"
+      "i5 i5"
+      "q5 q5"
+      "q5 q5"
+      "t4 t4"
+      "t4 t4";
+  }
+  #wd-edt .caption-main-edt {
+    padding: 3rem 1rem !important;
+  }
+
+  #wd-edt .text-edt {
+    /* font-size
+    text-align: left !important; */
+    padding: 0 1rem !important;
+  }
+
+  #wd-edt .text-edt-em {
+    padding: 0 1rem !important;
+  }
+
+  #wd-edt .quote-edt {
+    padding: 0 1rem !important;
+  }
+
+  #wd-edt .mobile-show-edt {
+    display: flex !important;
+  }
+
+  #wd-edt .mobile-hide-edt {
+    display: none !important;
+  }
+
+  #wd-edt img {
+    width: 100% !important;
+    max-width: 100% !important;
+    align-self: start !important;
+  }
+}
